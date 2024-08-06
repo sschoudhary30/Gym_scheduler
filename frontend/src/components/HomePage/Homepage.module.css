@@ -1,0 +1,192 @@
+.body{
+    width: 100%;
+}
+
+.back{
+    width: 100%;
+    height: 100vh;
+    object-fit: scale-down;
+    position: fixed;
+    z-index: 0;
+    top: 0px;
+}
+
+.register{
+    width: 40%;
+    z-index: 1;
+    border-radius: 30px;
+    padding: 30px;
+    float: left;
+    margin-top: 80px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.h1{
+    font-family:'Gabarito';
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    z-index: 2;
+}
+
+.form{
+    border: 4px solid #FF9045;
+    border-radius: 20px;
+    width: 80%;
+    display: flex;
+    z-index: 2;
+    flex-direction: column;
+    padding: 40px 60px
+}
+
+.label{
+    font-family: 'Gabarito';
+    font-size: 30px;
+    width: 80%;
+    margin: auto;
+    z-index: 2;
+    color: white;
+}
+
+.input{
+    border: none;
+    background: none;
+    border-bottom: 2px solid white;
+    font-size: 20px;
+    margin-top: 20px;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: yellow;
+    z-index: 2;
+}
+
+.submit{
+    width: 50%;
+    margin: auto;
+    font-family: 'Gabarito';
+    font-weight: 700;
+    font-size: 20px;
+    padding:10px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.span{
+    margin-left: 40px;
+    color: blue;
+    font-weight: bolder;
+}
+
+.line{
+    width: 100%;
+    margin: auto;
+    height: 3px;
+    background-color: #FF9045;
+    border-radius: 5px;
+    margin-top: 80px;
+}
+
+.h2{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Gabarito';
+    height: 100vh;
+    z-index:3;
+    position: relative;
+    transition-duration: 5s;
+}
+
+.ask{
+    font-family: 'Gabarito';
+    color: white;
+    width: 100%;
+    text-align: center;
+    color: #FF9045;
+    font-size: 25px;
+    margin-top: 10px;
+    cursor: pointer;
+
+}
+
+
+
+
+/* gym */
+
+.gym_body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.back1{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+
+.gym_form{
+    width: 47%;
+    z-index: 1;
+    background-color: rgb(56, 56, 56);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cla{
+    font-family: 'Gabarito';
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.gym{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.label1{
+    font-family: 'Gabarito';
+    font-size: 20px;
+    width: 70%;
+    margin-bottom: 10px;
+    color: #FF9045;
+}
+
+.input1{
+    font-family: 'Gabarito';
+    font-size: 18px;
+    padding: 3px 5px;
+    width: 70%;
+    border: 3px solid white;
+    background: none;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+
